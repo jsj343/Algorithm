@@ -33,6 +33,7 @@ def move(N):
             if pos[0] == 0 and pos[1] == 0:
                 return time
 
+    # N번 이동을 진행했는데도 시작점으로 돌아오지 못한 경우
     if pos[0] != 0 or pos[1] != 0:
         time = -1
         return time
